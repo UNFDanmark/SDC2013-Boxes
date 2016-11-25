@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0266C8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Statistics"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/text"
+                android:text="High Score: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Current Nedims: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Alltime Nedims: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Total Plays: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Total Deaths: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Total Score: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Total Purchases: " />
+
+            <TextView
+                style="@style/text"
+                android:text="Total Playtime: " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0266C8"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/statistics_tv_max_score"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_current_nedims"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_alltime_nedims"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_total_plays"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_total_deaths"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_total_score"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_total_purchases"
+                style="@style/text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/statistics_tv_total_playtime"
+                style="@style/text"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/statistics_b_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Back" />
+    </LinearLayout>
+
+</LinearLayout>
